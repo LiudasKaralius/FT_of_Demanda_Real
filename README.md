@@ -1,5 +1,5 @@
 If you are using cmd, run 'Main.py' script using IPython.
-IF YOU ARE UNABLE TO RUN THE SCRIPT, TRY INSTALLING 'requirements.txt'.
+If you are not able to run the scrit, try pip-installing 'requirements.txt'.
 
 This project consists of three python scripts: 'Main.py', 'Retriever.py' and 'FTplotter.py'. These three scripts are discussed separately below.
 
