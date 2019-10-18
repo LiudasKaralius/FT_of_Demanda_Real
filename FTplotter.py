@@ -1,7 +1,8 @@
 """
-This program contains a definition of a class that is responsible for 
-calculating a fast Fourier transform of this Demanda Real as well as plotting
-both the demand and its Fourier transform in the same figure.
+This module contains a definition of a class that is responsible for 
+calculating a fast Fourier transform of Demanda Real as well as plotting the
+results.
+Axis limits are better explained in README.md
 
 Created on 2019-10-17
 By Liudas Karalius
@@ -16,10 +17,7 @@ from IPython import get_ipython
 get_ipython().run_line_magic('matplotlib', 'qt')
 
 class FTplotter:
-    """
-    This class is responsible for executing FFT and plotting the results
-    Axis limits are better explained in README.md
-    """
+
     values = []
     time = []
 

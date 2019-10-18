@@ -1,8 +1,6 @@
 """
-This program dowloads real electricity demand during a period between the
-specified dates. It then calculates a fast Fourier transform of this demand.
-Both the demand and its Fourier transform are then plotted in the same
-figure.
+This module contains a definition of a function that is responsible for 
+communication with the host and retrieval of requested data.
 
 Created on 2019-10-17
 By Liudas Karalius
@@ -12,10 +10,7 @@ liudas.karalius.2@gmail.com
 import requests
 
 def retrieve(host, parameters, headers):
-    """
-    This function is responsible for communication with the host and
-    retrieval of requested data.
-    """
+    
     try:
         response = requests.get(
                                  host,

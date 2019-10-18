@@ -1,6 +1,8 @@
 """
-This program dowloads real electricity demand during a period between the
-specified dates. It then passes the data to be fourier-transformed and plotted.
+This controls the process, during which real spanish electricity demand
+between the specified dates is downloaded, Fourier tranformed and plotted.
+Module Retriever is responsible for database access and data download.
+Module FTplotter is responsible for Fourier transforming and plotting the data.
 
 Created on 2019-10-17
 By Liudas Karalius
