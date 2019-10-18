@@ -1,6 +1,6 @@
+This program downloads spanish energy demand data between the specified dates and performs a fast Fourier transform (fft) to it. The output is a .png file (created in the working directory), containing both raw data and its fft.
 Run 'Main.py' script.
 If you are not able to run the scrit, try pip-installing 'requirements.txt'.
-This program downloads spanish energy demand data between the specified dates and performs a fast Fourier transform (fft) to it. The output is a .png file (created in the working directory), containing both raw data and its fft.
 
 This project consists of three modules: 'Main.py', 'Retriever.py' and 'FTplotter.py'. The later two are contained in folder 'modules'. These three scripts are discussed separately below.
 
