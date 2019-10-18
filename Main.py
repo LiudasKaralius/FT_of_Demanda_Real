@@ -26,5 +26,4 @@ headers = {
 
 data = retrieve(host, parameters, headers)
 plotter = FTplotter(data['indicator']['values'])
-print('Data sent to be Fourier transformed and plotted.')
 plotter.plot_energy_demand_and_ft()
