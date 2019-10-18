@@ -1,9 +1,9 @@
-If you are using cmd, run 'Main.py' script using IPython.
+Run 'Main.py' script.
 If you are not able to run the scrit, try pip-installing 'requirements.txt'.
 
-This project consists of three python scripts: 'Main.py', 'Retriever.py' and 'FTplotter.py'. The later two are contained in folder 'modules'. These three scripts are discussed separately below.
+This project consists of three modules: 'Main.py', 'Retriever.py' and 'FTplotter.py'. The later two are contained in folder 'modules'. These three scripts are discussed separately below.
 
-'Main.py'     is the script which controls the process and adresses both 'Retriever.py' and 'FTplotter.py'. Here the request parameters and headers are set.
+'Main.py'     is a module which controls the process and adresses both 'Retriever.py' and 'FTplotter.py'. Here the request parameters and headers are set.
 
 'Retriever.py'     contains a definition of a function which accesses the database and downloads the requested data.
 
