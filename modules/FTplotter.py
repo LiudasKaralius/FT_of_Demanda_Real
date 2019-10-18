@@ -1,7 +1,7 @@
 """
 This module contains a definition of a class that is responsible for 
 calculating a fast Fourier transform of Demanda Real as well as plotting the
-results.
+results into a .png file.
 Axis limits are better explained in README.md
 
 Created on 2019-10-17
