@@ -9,8 +9,8 @@ By Liudas Karalius
 liudas.karalius.2@gmail.com
 """
 
-from FTplotter import FTplotter
-from Retriever import retrieve
+from modules.FTplotter import FTplotter
+from modules.Retriever import retrieve
 
 host = 'https://api.esios.ree.es/indicators/1293'
 parameters = {
