@@ -12,10 +12,6 @@ import matplotlib.pyplot as pl
 from scipy.fftpack import rfft, rfftfreq
 import numpy as np
 
-# The two following imports impose plotting in a separate window.
-from IPython import get_ipython
-get_ipython().run_line_magic('matplotlib', 'qt')
-
 class FTplotter:
 
     values = []
@@ -36,7 +32,7 @@ class FTplotter:
         # 0th element of the transform is the average of the demand and hence is irrelevant for our purposes.
         demand_transform[0] = 0
 
-        pl.figure(1, figsize=(16,7))
+        fig = pl.figure(1, figsize=(16,7))
         pl.subplots_adjust(hspace=0.5)
         ax1 = pl.subplot(211)
         ax1.grid('major')
@@ -49,3 +45,4 @@ class FTplotter:
         ax2.set_xlabel('frequency (days$^{-1}$)',fontweight='bold')
         ax2.set_ylabel('Amplitude (a.u.)',fontweight='bold')
         ax2.set_xlim([0.03, 6])
+        fig.savefig('Demanda_Real.png')
