@@ -1,4 +1,4 @@
-This program downloads spanish energy demand data between the specified dates and performs a fast Fourier transform (fft) to it. The output is a .png file (created in the working directory), containing both raw data and its fft.
+This program downloads spanish energy demand data between the specified dates and performs a fast Fourier transform (fft) to it. The output is a .png file 'Demanda_Real.png' (created in the working directory), containing both raw data and its fft.
 Run 'Main.py' script.
 If you are not able to run the script, try pip-installing 'requirements.txt'.
 
